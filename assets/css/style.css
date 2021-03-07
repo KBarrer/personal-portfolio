@@ -141,21 +141,18 @@ header nav ul li a {
 
 
 #work .work-preview {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
     flex: 2 70%;
 }
 
 #work .site-preview {
     position: relative;
     display: flex;
-    max-width: 600PX;
-    height: 350px;
+    max-width: 850PX;
     padding: 0px 35px 35px 35px; 
     overflow: hidden; 
     flex-direction: column;
 }
+
 
 /* CONTACT ME STYLE START */
 
@@ -184,7 +181,7 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     list-style: none;
 }
 
