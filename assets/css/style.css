@@ -159,7 +159,14 @@ header nav ul li a {
     display: flex;
     overflow: hidden;
     position: relative;
+    size: auto;
     background-color: #1f1d19; 
+}
+
+#work img {
+    flex-shrink: 0;
+    min-width: 80%;
+    min-height: 80%;
 }
 
 #work .work-preview a:hover {
